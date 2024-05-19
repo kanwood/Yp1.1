@@ -28,21 +28,21 @@
 
 # Скриншоты приложения:
 
-![Главная страница]((https://imgur.com/a/7WTdWcB)
+![Главная страница](https://github.com/kanwood/Yp1.1/blob/main/ScreensForRepository/mainwindow.png)
 ## Главная страница
 </br> </br> </br>
 
-![Информационное окно](https://imgur.com/a/RNtjL8l)
+![Информационное окно](https://github.com/kanwood/Yp1.1/blob/main/ScreensForRepository/drobiinfo.png)
 ## Информационное окно </br>
 </br> </br> </br>
 
-![Калькулятор теоремы Виета](https://imgur.com/a/6BXF7Yv)
+![Калькулятор теоремы Виета](https://github.com/kanwood/Yp1.1/blob/main/ScreensForRepository/vieta.png)
 ## Калькулятор теоремы Виета </br>
 </br> </br> </br>
 
-![Калькулятор Дискриминанта](https://imgur.com/a/e96idu4)
+![Калькулятор Дискриминанта](https://github.com/kanwood/Yp1.1/blob/main/ScreensForRepository/discriminant.png)
 ## алькулятор Дискриминанта </br>
 </br> </br> </br>
 
-![Таблица квадратов](https://imgur.com/a/VBYNKGD)
+![Таблица квадратов](https://github.com/kanwood/Yp1.1/blob/main/ScreensForRepository/tablesquares.png)
 ## Таблица квадратов </br>
