@@ -1,0 +1,19 @@
+﻿<Window x:Class="pp.DrobiInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pp"
+        mc:Ignorable="d"
+        Title="DrobiInfo" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="DgridDrobi" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="Определение" Binding="{Binding nameSubject}" Width="150" />
+                <DataGridTextColumn Header="Описание" Binding="{Binding description}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="out" Content="Вернуться" FontSize="16" HorizontalAlignment="Left" Height="50" Margin="649,366,0,0" VerticalAlignment="Top" Width="135" Click="out_Click"/>
+
+    </Grid>
+</Window>

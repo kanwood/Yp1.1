@@ -1,0 +1,19 @@
+﻿<Window x:Class="pp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Name="lb" FontSize="23" SelectionMode="Single" Margin="0,70,0,100">
+            <ListBoxItem Selected="Drobi_lb">Дроби, квадратный корень, рациональное выражение. Что это?</ListBoxItem>
+            <ListBoxItem Selected="Vieta_lb">Решение уравнения при помощи теоремы Виета (калькулятор)</ListBoxItem>
+            <ListBoxItem Selected="Discriminant_lb">Решение уравнения при помощи Дискриминанта (калькулятор)</ListBoxItem>
+            <ListBoxItem Selected="TableSquare_lb">Таблица квадратов</ListBoxItem>
+        </ListBox>
+        <TextBlock HorizontalAlignment="Left" Height="57" Margin="10,13,0,0" TextWrapping="Wrap" Text="Выберите действие: " FontSize="40" VerticalAlignment="Top" Width="755"/>
+        <Button Content="Выйти" FontSize="20" Margin="610,355,0,0" HorizontalAlignment="Left" Height="50"  VerticalAlignment="Top" Width="155" Click="Out"/>
+    </Grid>
+</Window>

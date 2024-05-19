@@ -1,0 +1,19 @@
+﻿<Window x:Class="pp.Square"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pp"
+        mc:Ignorable="d"
+        Title="Square" Height="300" Width="400">
+    <Grid Margin="10">
+
+        <TextBox x:Name="InputTextBox" FontSize="20" Grid.Row="0" Margin="27,24,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"  Grid.RowSpan="2" Width="141"/>
+        <Button Content="Вычислить" Margin="209,30,0,0" HorizontalAlignment="Left" Height="20" FontSize="10" VerticalAlignment="Top" Width="64" Click="CalculateButton_Click" Grid.RowSpan="2"/>
+        <TextBlock x:Name="ResultTextBlock" FontSize="20" Grid.Row="1" Margin="2,77,0,102" RenderTransformOrigin="0.5,0.5">
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="16,0,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Введите число:" VerticalAlignment="Top" Width="140"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,24,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="√" FontSize="24" VerticalAlignment="Top" Width="17"/>
+        <Button Content="Вернуться" HorizontalAlignment="Left" Height="29" Margin="301,225,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="69" Click="Button_Click"/>
+    </Grid>
+</Window>
