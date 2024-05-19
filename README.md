@@ -41,7 +41,7 @@
 </br> </br> </br>
 
 ![Калькулятор Дискриминанта](https://github.com/kanwood/Yp1.1/blob/main/ScreensForRepository/discriminant.png)
-## алькулятор Дискриминанта </br>
+## Калькулятор Дискриминанта </br>
 </br> </br> </br>
 
 ![Таблица квадратов](https://github.com/kanwood/Yp1.1/blob/main/ScreensForRepository/tablesquares.png)
